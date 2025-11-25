@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'century gothic';
+    src: url('assets/centurygothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'century gothic', sans-serif;
+    color: #dadada;
+}
+
+a {
+    color: #3944be;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #bebebe;
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 3vh;
+}
+
+.header-link {
+    color: #a0a0a0;
+    text-decoration: none;
+
+    margin-left: 2vh;
+}
+
+.ir-icon {
+    height: 4vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    margin-right: 2vh;
+}
+
+body {
+    background: #0e0e0e;
+    height: 100vh;
+}
+
+.review {
+    width: 100%;
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.review-text {
+    display: block;
+    text-align: center;
+}
+
+.hm-icon {
+    height: 40vh;
+}
+
+.hm-title {
+    font-size: 8vh;
+}
+
+.phrase {
+    font-size: 3vh;
+    margin-top: 4vh;
+}
+
+.cap-comingsoon {
+    font-size: 5vh;
+}
+

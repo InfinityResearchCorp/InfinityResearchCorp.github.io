@@ -1,7 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'century gothic', sans-serif;
+    color: #dadada;
 }
 
 @font-face {
@@ -9,11 +11,6 @@
     src: url('assets/centurygothic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-
-* {
-    font-family: 'century gothic', sans-serif;
-    color: #dadada;
 }
 
 a {
@@ -33,11 +30,31 @@ a {
     font-size: 3vh;
 }
 
+.ir-title {
+    color: #a0a0a0;
+    text-decoration: none;
+    width: auto;
+
+    margin-left: 2vh;
+}
+
 .header-link {
     color: #a0a0a0;
     text-decoration: none;
 
-    margin-left: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    transition: 0.3s;
+}
+
+.header-link:hover {
+    color:antiquewhite;
+    font-size: 3.2vh;
+}
+
+.header-link-container {
+    width: auto;
+
 }
 
 .ir-icon {
@@ -78,6 +95,37 @@ body {
     font-size: 8vh;
 }
 
+.hm-title {
+    text-decoration: none;
+    color: #dadada;
+    background: linear-gradient(
+    120deg,
+    #6e00ff,
+    #00d0ff,
+    #ff008c,
+    #ff8c00,
+    #6e00ff
+  );
+  
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: spaceflow 8s ease infinite;
+  transition: 0.3s;
+}
+
+.hm-title:hover {
+  animation: spaceflow 5s ease-in-out infinite;
+  background-size: 500% 500%;
+  color: transparent;
+}
+
+@keyframes spaceflow {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 .phrase {
     font-size: 3vh;
     margin-top: 4vh;
@@ -87,3 +135,9 @@ body {
     font-size: 5vh;
 }
 
+.overview {
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    margin-top: 10vh;
+}

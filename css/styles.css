@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'century gothic';
-    src: url('assets/centurygothic.ttf') format('truetype');
+    src: url('assets/font/centurygothic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -58,14 +58,14 @@ a {
 }
 
 .ir-icon {
-    height: 4vh;
+    height: 7vh;
     margin-left: 2vh;
-    margin-top: 2vh;
     margin-right: 2vh;
 }
 
 body {
     background: #0e0e0e;
+
     height: 100vh;
 }
 
@@ -89,6 +89,7 @@ body {
 
 .hm-icon {
     height: 40vh;
+    width: auto;
 }
 
 .hm-title {
@@ -139,5 +140,74 @@ body {
     margin-left: 5vw;
     margin-right: 5vw;
 
+    margin-top: 15vh;
+}
+
+.project-mission-cap {
+    font-size: 3vh;
+}
+
+.project-mission-text {
+    font-size: 2vh;
+}
+
+.tasks {
+    margin-top: 5vh;
+    width: auto;
+}
+
+.project-tasks-cap {
+    font-size: 3vh;
+}
+
+.task {
+    margin-left: 2vw;
+}
+
+.task-cap {
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.sub-task {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    display: flex;
+}
+
+.sub-task-cap {
+    font-size: 2vh;
+}
+
+.colon {
+    font-size: 2vh;
+}
+.sub-task-description {
+    font-size: 2vh;
+    margin-left: 1vh;
+}
+
+.footer {
+    padding-top: 3vh;
     margin-top: 10vh;
+    width: 100%;
+    background: #0b0b0b;
+    height: 16vh;
+
+    font-size: 2vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    height: 100%;
+
+    margin-left: 3vw;
+}
+
+.copyrights {
+    height: 100%;
+    text-align: right;
+    margin-right: 3vw;
 }

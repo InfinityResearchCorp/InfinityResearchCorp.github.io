@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080.64 1080.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #e5e5e5;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <g id="hm-icon">
+    <polygon class="cls-1" points="540.32 .32 573.03 507.61 1080.32 540.32 573.03 573.03 540.32 1080.32 507.61 573.03 .32 540.32 507.61 507.61 540.32 .32"/>
+    <g>
+      <polygon class="cls-1" points="507.61 507.61 510.19 467.59 158.48 158.48 467.59 510.19 507.61 507.61"/>
+      <polygon class="cls-1" points="573.03 507.61 613.05 510.19 922.16 158.48 570.45 467.59 573.03 507.61"/>
+      <polygon class="cls-1" points="573.03 573.03 570.45 613.05 922.16 922.16 613.05 570.45 573.03 573.03"/>
+      <polygon class="cls-1" points="507.61 573.03 467.59 570.45 158.48 922.16 510.19 613.05 507.61 573.03"/>
+    </g>
+  </g>
+</svg>

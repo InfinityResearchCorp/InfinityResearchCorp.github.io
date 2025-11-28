@@ -211,3 +211,20 @@ body {
     text-align: right;
     margin-right: 3vw;
 }
+
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 60vh;
+    
+}
+
+.google-form {
+    margin-top: 10vh;
+
+    width: 50vw;
+    height: 60vh;
+}

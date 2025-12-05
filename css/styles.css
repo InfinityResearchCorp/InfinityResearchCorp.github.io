@@ -24,9 +24,9 @@ a {
     color: #bebebe;
     height: 8vh;
 
-    display: flex;
     align-items: center;
-
+    display: flex;
+    
     font-size: 3vh;
 }
 
@@ -35,6 +35,8 @@ a {
     text-decoration: none;
     width: auto;
 
+    text-wrap-mode: nowrap;
+
     margin-left: 2vh;
 }
 
@@ -42,19 +44,36 @@ a {
     color: #a0a0a0;
     text-decoration: none;
 
-    margin-left: 5vw;
-    margin-right: 5vw;
-    transition: 0.3s;
+    align-items: center;
+
+    transition: 0.6s;
 }
 
 .header-link:hover {
-    color:antiquewhite;
-    font-size: 3.2vh;
+    background: linear-gradient(
+        120deg,
+        #6e00ff,
+        #00d0ff,
+        #ff008c,
+        #ff8c00,
+        #6e00ff
+    );
+
+    font-size: 3.3vh;
+  
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: spaceflow 8s ease infinite;
 }
 
 .header-link-container {
-    width: auto;
+    display: flex;
+    justify-items: center;
 
+    justify-content: space-evenly;
+
+    width: 100%;
 }
 
 .ir-icon {
@@ -94,31 +113,28 @@ body {
 
 .hm-title {
     font-size: 8vh;
-}
-
-.hm-title {
     text-decoration: none;
     color: #dadada;
     background: linear-gradient(
-    120deg,
-    #6e00ff,
-    #00d0ff,
-    #ff008c,
-    #ff8c00,
-    #6e00ff
-  );
+        120deg,
+        #6e00ff,
+        #00d0ff,
+        #ff008c,
+        #ff8c00,
+        #6e00ff
+    );
   
-  background-size: 400% 400%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  animation: spaceflow 8s ease infinite;
-  transition: 0.3s;
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: spaceflow 8s ease infinite;
+    transition: 0.3s;
 }
 
 .hm-title:hover {
-  animation: spaceflow 5s ease-in-out infinite;
-  background-size: 500% 500%;
-  color: transparent;
+    animation: spaceflow 5s ease-in-out infinite;
+    background-size: 500% 500%;
+    color: transparent;
 }
 
 @keyframes spaceflow {
@@ -176,13 +192,17 @@ body {
 }
 
 .sub-task-cap {
+    font-weight: bold;
     font-size: 2vh;
 }
 
-.colon {
-    font-size: 2vh;
+.sub-task-cap::after {
+    position: absolute;
+    content: ':';
 }
+
 .sub-task-description {
+    font-weight: normal;
     font-size: 2vh;
     margin-left: 1vh;
 }
@@ -227,4 +247,64 @@ body {
 
     width: 50vw;
     height: 60vh;
+}
+
+.donate {
+    border-top: 0.2vh solid #dadada;
+    
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    width: auto;
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    margin-top: 10vh;
+
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+
+    color:#dadada;
+    text-align: center;
+
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.donate-cap {
+    font-size: 3vh;
+
+    font-weight:lighter;
+
+    margin-bottom: 5vh;
+}
+
+.donate-usdt {
+    font-size: 2vh;
+    color: #dadada;
+}
+
+.donate-btc {
+    font-size: 2vh;
+    color: #dadada;
+}
+
+.donate-usdt::before {
+    color: #dadada;
+    font-weight: bold;
+    position: relative;
+    content: 'USDT wallet: ';
+}
+
+.donate-btc::before {
+    color: #dadada;
+    font-weight: bold;
+    position: relative;
+    content: 'BTC wallet: ';
+}
+
+.donate-description {
+    font-size: 2vh;
 }

@@ -1,27 +1,27 @@
 # Horizon Mesh Project
 
-**Horizon Mesh Project** - a global, international project aimed at the research of space.
+The **Horizon Mesh Project** *(HMP)* - is an independent research project aimed at exploring interstellar space, research astrophysics, and developing new technologies in the field of astronautics. It was founded in 2025 by the *independent corporation* '**Infinity Research Foundation**'.
 
-The project is open-source and is dedicated to research the cosmos, developing and building low-cost radio telescopes, exploring new methods of astronomical observation, and researching new technological solutions.
+# About IRF
 
-The project will include a [main dynamic website](https://horizonmesh.space/) containing all information about the project, a project forum, a research forum, and its own wiki. It will also provide complete information about how the radio telescopes work, their designs, and schematics to build your own.
+The project is just beginning to develop and does not yet have a clear structure, but we are working to improve it.
 
-The main product of the project will be a network with its own protocols, designed to create a unified, synchronized interferometric array. Radio telescopes will generate samples with precise time stamps from GPSDOs, process the data locally and send it to a central server where synchronization and correlation of all data will be performed to produce a combined result.
+The Infinity Research Foundation (IRF) does not yet exist as an organization, but after initial investments and the creation of a general website for the organization, the IRF will be registered in the Netherlands as an official non-profit organization. 
 
-The project is currently under development — you can find all information on the website.
+The company will be registered no earlier than 2028-2029, because we need to organize a good project structure, calculate all the details and nuances, and organize everything so that there are no more problems after registration.
 
-## Network launch: no earlier than Q2 2027.
+# Why is it called a project?
 
-*At the moment, the project is being developed by a single person with a very limited budget. The release dates for the website, software, radio telescope schematics, scientific articles, and the network launch may shift.*
+The IRF will create autonomous research projects that will study new technologies, organize research missions to explore outer space, and collaborate with existing space programs.
+However, these projects, no matter how large they may be, will not have their own economic system. All funding will come from the Infinity Research Foundation. The IRF will also handle all financial matters, hiring new staff, and distributing salaries, allowing projects and researchers to focus entirely on their research.
 
-## Donate 
+# Investments in IRF
 
-**You can donate money to support the project!**
-Due to *sanctions* in my region, I *cannot use or withdraw funds* from platforms such as **Patreon** or **buyMeACoffee**.
+The non-profit organization IRF, as well as all projects, will not have their own assets for sale. All investments will go towards new research.
 
-**I hope you will support the project!**
+## Support Us
 
-### There are two payment methods:
+The organization is not yet registered and does not have its own bank account. You can donate money via cryptocurrency.
 
 **USDT**: *Сrypto dollar*. A very popular currency, a tokenized form of the dollar. A very convenient currency for donations, as it has low fees. You can use it for ***small donations***. (*~$5 - $10*).
 
@@ -34,7 +34,3 @@ Due to *sanctions* in my region, I *cannot use or withdraw funds* from platforms
 **USDT (TRC-20):** TTHqnyo6seskvbMYu9uAXFWcYsyG1isLbd
 
 **BTC:** bc1qlz8p5l8sy99ldx4n48henmak6h80ad5yy0swkj
-
-## Thanks!
-
-Thank you for supporting the project!

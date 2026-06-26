@@ -8,7 +8,7 @@
 }
 
 .header {
-    background: #040404;
+    background: #020202;
     color: #d6d6d6;
 
     width: 100%;
@@ -68,7 +68,7 @@
 }
 
 .nav-link:hover {
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 /* entry */
@@ -77,11 +77,11 @@
     width: 100%;
     padding-left: 2.7w;
     padding-top: 9.5vh;
-    
-    display: grid;
-    grid-template-rows: 1fr 1fr;
 
     background: #020202;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 /* entry-main */
@@ -134,7 +134,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1vw;
 
-    margin-top: 12vh;
+    margin-top: 14vh;
     margin-left: 5vw;
 }
 
@@ -166,6 +166,7 @@
 
 .entry-nav-link:hover {
     border-bottom: rgba(255, 255, 255, 0.3) 1px solid;
+    
     font-size: 2.00vh;
 }
 
@@ -289,17 +290,17 @@ body {
     background: #090909;
 }
 .sec-3 {
-    background: #111111;
+    background: #0b0b0b;
 }
 .sec-4 {
-    background: #131313;
+    background: #0d0d0d;
 }
 .sec-5 {
-    background: #151515;
+    background: #0f0f0f;
 }
 .sec-6 {
-    background: #171717;
+    background: #111111;
 }
 .sec-7 {
-    background: #191919;
+    background: #131313;
 }

@@ -1,7 +1,7 @@
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
+@font-face {
+    font-family: "Railway";
+    src: url('../assets/font/Railway/static/Raleway-Thin.ttf');
+} 
 body {
     background: #0c0c0c;
     color: #d6d6d6;

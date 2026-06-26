@@ -8,7 +8,7 @@
 }
 
 .header {
-    background: #030303;
+    background: #040404;
     color: #d6d6d6;
 
     width: 100%;
@@ -40,18 +40,25 @@
 .ir-header-icon {
     width: 6vh;
 
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    justify-content: center;
+    margin-top: 1vh;
 }
 
 .nav-links {
     align-items: center;
-    justify-content: center;
 
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr;
     
     height: 100%;
+}
+
+.nav-links-l {
+    justify-content: start;
+}
+
+.nav-links-r {
+    justify-content: end;
 }
 
 .nav-link {
@@ -139,10 +146,10 @@
     white-space: nowrap;
     display: inline-block;
 
-    position: relative;
+    position:relative;
     transition: 0.55s; ;
 
-    font-size: 2vh;
+    font-size: 1.6vh;
 }
 
 .entry-nav-link:link {
@@ -193,6 +200,7 @@ body {
     padding-right: 16vw;
 
     padding-top: 4vh;
+    padding-bottom: 8vh;
 }
 
 .whats-new-cap {
@@ -266,4 +274,32 @@ body {
 
     object-fit: cover;
     transition: 0.8s;
+}
+
+.sector {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+
+.sec-1 {
+    background: #070707;
+}
+.sec-2 {
+    background: #090909;
+}
+.sec-3 {
+    background: #111111;
+}
+.sec-4 {
+    background: #131313;
+}
+.sec-5 {
+    background: #151515;
+}
+.sec-6 {
+    background: #171717;
+}
+.sec-7 {
+    background: #191919;
 }

@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Railway";
-    src: url('../assets/font/Railway/static/Raleway-Light.ttf');
+    font-family: "Raleway";
+    src: url('../assets/font/Raleway/static/Raleway-Light.ttf');
 } 
 
 * {
-    font-family: "Railway";
+    font-family: "Raleway";
 }
 
 .header {
@@ -18,7 +18,6 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 5vw;
 }
 
 .header a {
@@ -46,19 +45,24 @@
 
 .nav-links {
     align-items: center;
+    justify-content: center;
 
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    
+
     height: 100%;
 }
 
 .nav-links-l {
-    justify-content: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .nav-links-r {
-    justify-content: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .nav-link {
